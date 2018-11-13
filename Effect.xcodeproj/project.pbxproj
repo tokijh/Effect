@@ -8,12 +8,53 @@
 
 /* Begin PBXBuildFile section */
 		60377B2F219B17A60075BA1A /* Effect.h in Headers */ = {isa = PBXBuildFile; fileRef = 60377B2D219B17A60075BA1A /* Effect.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60377B36219B17B10075BA1A /* EffectorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60377B35219B17B10075BA1A /* EffectorType.swift */; };
+		60377B38219B17E60075BA1A /* EffectibleType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60377B37219B17E60075BA1A /* EffectibleType.swift */; };
+		60377B3A219B17F60075BA1A /* EffectibleConvertibleType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60377B39219B17F60075BA1A /* EffectibleConvertibleType.swift */; };
+		60377B3C219B18680075BA1A /* Effectible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60377B3B219B18680075BA1A /* Effectible.swift */; };
+		60377B3E219B18790075BA1A /* AnyEffector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60377B3D219B18790075BA1A /* AnyEffector.swift */; };
+		60377B40219B18890075BA1A /* EffectorBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60377B3F219B18890075BA1A /* EffectorBase.swift */; };
+		60377B42219B18980075BA1A /* AnonymousEffector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60377B41219B18980075BA1A /* AnonymousEffector.swift */; };
+		60377B44219B18A70075BA1A /* Sink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60377B43219B18A70075BA1A /* Sink.swift */; };
+		60377B46219B18B80075BA1A /* AnonymousEffectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60377B45219B18B80075BA1A /* AnonymousEffectable.swift */; };
+		60377B49219B18EA0075BA1A /* Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60377B48219B18EA0075BA1A /* Create.swift */; };
+		60377B4B219B19020075BA1A /* Do.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60377B4A219B19020075BA1A /* Do.swift */; };
+		60377B4D219B191E0075BA1A /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60377B4C219B191E0075BA1A /* Delay.swift */; };
+		60377B6A219B1C170075BA1A /* Effect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60377B2A219B17A60075BA1A /* Effect.framework */; };
+		60377B71219B1C230075BA1A /* EffectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60377B70219B1C230075BA1A /* EffectorTests.swift */; };
+		60377B73219B1DF20075BA1A /* Effectible+DoOnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60377B72219B1DF20075BA1A /* Effectible+DoOnTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		60377B6B219B1C170075BA1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60377B21219B17A60075BA1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60377B29219B17A60075BA1A;
+			remoteInfo = Effect;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		60377B2A219B17A60075BA1A /* Effect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Effect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		60377B2D219B17A60075BA1A /* Effect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Effect.h; sourceTree = "<group>"; };
 		60377B2E219B17A60075BA1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60377B35219B17B10075BA1A /* EffectorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectorType.swift; sourceTree = "<group>"; };
+		60377B37219B17E60075BA1A /* EffectibleType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectibleType.swift; sourceTree = "<group>"; };
+		60377B39219B17F60075BA1A /* EffectibleConvertibleType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectibleConvertibleType.swift; sourceTree = "<group>"; };
+		60377B3B219B18680075BA1A /* Effectible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Effectible.swift; sourceTree = "<group>"; };
+		60377B3D219B18790075BA1A /* AnyEffector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyEffector.swift; sourceTree = "<group>"; };
+		60377B3F219B18890075BA1A /* EffectorBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectorBase.swift; sourceTree = "<group>"; };
+		60377B41219B18980075BA1A /* AnonymousEffector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnonymousEffector.swift; sourceTree = "<group>"; };
+		60377B43219B18A70075BA1A /* Sink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sink.swift; sourceTree = "<group>"; };
+		60377B45219B18B80075BA1A /* AnonymousEffectable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnonymousEffectable.swift; sourceTree = "<group>"; };
+		60377B48219B18EA0075BA1A /* Create.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Create.swift; sourceTree = "<group>"; };
+		60377B4A219B19020075BA1A /* Do.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Do.swift; sourceTree = "<group>"; };
+		60377B4C219B191E0075BA1A /* Delay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delay.swift; sourceTree = "<group>"; };
+		60377B65219B1C170075BA1A /* EffectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EffectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60377B69219B1C170075BA1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60377B70219B1C230075BA1A /* EffectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectorTests.swift; sourceTree = "<group>"; };
+		60377B72219B1DF20075BA1A /* Effectible+DoOnTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Effectible+DoOnTests.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,6 +65,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		60377B62219B1C170075BA1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60377B6A219B1C170075BA1A /* Effect.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -31,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				60377B2C219B17A60075BA1A /* Effect */,
+				60377B66219B1C170075BA1A /* EffectTests */,
 				60377B2B219B17A60075BA1A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -39,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				60377B2A219B17A60075BA1A /* Effect.framework */,
+				60377B65219B1C170075BA1A /* EffectTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -47,9 +98,39 @@
 			isa = PBXGroup;
 			children = (
 				60377B2D219B17A60075BA1A /* Effect.h */,
+				60377B45219B18B80075BA1A /* AnonymousEffectable.swift */,
+				60377B41219B18980075BA1A /* AnonymousEffector.swift */,
+				60377B3D219B18790075BA1A /* AnyEffector.swift */,
+				60377B3B219B18680075BA1A /* Effectible.swift */,
+				60377B39219B17F60075BA1A /* EffectibleConvertibleType.swift */,
+				60377B37219B17E60075BA1A /* EffectibleType.swift */,
+				60377B3F219B18890075BA1A /* EffectorBase.swift */,
+				60377B35219B17B10075BA1A /* EffectorType.swift */,
+				60377B43219B18A70075BA1A /* Sink.swift */,
+				60377B47219B18DC0075BA1A /* Effectables */,
 				60377B2E219B17A60075BA1A /* Info.plist */,
 			);
 			path = Effect;
+			sourceTree = "<group>";
+		};
+		60377B47219B18DC0075BA1A /* Effectables */ = {
+			isa = PBXGroup;
+			children = (
+				60377B48219B18EA0075BA1A /* Create.swift */,
+				60377B4C219B191E0075BA1A /* Delay.swift */,
+				60377B4A219B19020075BA1A /* Do.swift */,
+			);
+			path = Effectables;
+			sourceTree = "<group>";
+		};
+		60377B66219B1C170075BA1A /* EffectTests */ = {
+			isa = PBXGroup;
+			children = (
+				60377B72219B1DF20075BA1A /* Effectible+DoOnTests.swift */,
+				60377B70219B1C230075BA1A /* EffectorTests.swift */,
+				60377B69219B1C170075BA1A /* Info.plist */,
+			);
+			path = EffectTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,16 +165,39 @@
 			productReference = 60377B2A219B17A60075BA1A /* Effect.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		60377B64219B1C170075BA1A /* EffectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60377B6D219B1C170075BA1A /* Build configuration list for PBXNativeTarget "EffectTests" */;
+			buildPhases = (
+				60377B61219B1C170075BA1A /* Sources */,
+				60377B62219B1C170075BA1A /* Frameworks */,
+				60377B63219B1C170075BA1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60377B6C219B1C170075BA1A /* PBXTargetDependency */,
+			);
+			name = EffectTests;
+			productName = EffectTests;
+			productReference = 60377B65219B1C170075BA1A /* EffectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		60377B21219B17A60075BA1A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = tokijh;
 				TargetAttributes = {
 					60377B29219B17A60075BA1A = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
+					60377B64219B1C170075BA1A = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
@@ -111,12 +215,20 @@
 			projectRoot = "";
 			targets = (
 				60377B29219B17A60075BA1A /* Effect */,
+				60377B64219B1C170075BA1A /* EffectTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		60377B28219B17A60075BA1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60377B63219B1C170075BA1A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -130,10 +242,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60377B3C219B18680075BA1A /* Effectible.swift in Sources */,
+				60377B3E219B18790075BA1A /* AnyEffector.swift in Sources */,
+				60377B44219B18A70075BA1A /* Sink.swift in Sources */,
+				60377B4B219B19020075BA1A /* Do.swift in Sources */,
+				60377B42219B18980075BA1A /* AnonymousEffector.swift in Sources */,
+				60377B38219B17E60075BA1A /* EffectibleType.swift in Sources */,
+				60377B36219B17B10075BA1A /* EffectorType.swift in Sources */,
+				60377B46219B18B80075BA1A /* AnonymousEffectable.swift in Sources */,
+				60377B40219B18890075BA1A /* EffectorBase.swift in Sources */,
+				60377B4D219B191E0075BA1A /* Delay.swift in Sources */,
+				60377B3A219B17F60075BA1A /* EffectibleConvertibleType.swift in Sources */,
+				60377B49219B18EA0075BA1A /* Create.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60377B61219B1C170075BA1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60377B71219B1C230075BA1A /* EffectorTests.swift in Sources */,
+				60377B73219B1DF20075BA1A /* Effectible+DoOnTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		60377B6C219B1C170075BA1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60377B29219B17A60075BA1A /* Effect */;
+			targetProxy = 60377B6B219B1C170075BA1A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		60377B30219B17A60075BA1A /* Debug */ = {
@@ -261,6 +402,7 @@
 		60377B33219B17A60075BA1A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -270,6 +412,35 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Effect/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tokijh.Effect;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		60377B34219B17A60075BA1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 46KGHHF73Q;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Effect/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -281,28 +452,39 @@
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
-			name = Debug;
+			name = Release;
 		};
-		60377B34219B17A60075BA1A /* Release */ = {
+		60377B6E219B1C170075BA1A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 46KGHHF73Q;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Effect/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				INFOPLIST_FILE = EffectTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tokijh.Effect;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tokijh.EffectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		60377B6F219B1C170075BA1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46KGHHF73Q;
+				INFOPLIST_FILE = EffectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tokijh.EffectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -325,6 +507,15 @@
 			buildConfigurations = (
 				60377B33219B17A60075BA1A /* Debug */,
 				60377B34219B17A60075BA1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60377B6D219B1C170075BA1A /* Build configuration list for PBXNativeTarget "EffectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60377B6E219B1C170075BA1A /* Debug */,
+				60377B6F219B1C170075BA1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
