@@ -32,6 +32,7 @@
 		60377B92219B2F990075BA1A /* Animate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60377B91219B2F990075BA1A /* Animate.swift */; };
 		60377B94219B2FA70075BA1A /* AnimationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60377B93219B2FA70075BA1A /* AnimationType.swift */; };
 		60377B96219B2FDD0075BA1A /* Effectiable+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60377B95219B2FDD0075BA1A /* Effectiable+UIView.swift */; };
+		60377B98219B3A620075BA1A /* AnimateCompleteImmediately.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60377B97219B3A620075BA1A /* AnimateCompleteImmediately.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +95,7 @@
 		60377B91219B2F990075BA1A /* Animate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animate.swift; sourceTree = "<group>"; };
 		60377B93219B2FA70075BA1A /* AnimationType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationType.swift; sourceTree = "<group>"; };
 		60377B95219B2FDD0075BA1A /* Effectiable+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Effectiable+UIView.swift"; sourceTree = "<group>"; };
+		60377B97219B3A620075BA1A /* AnimateCompleteImmediately.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateCompleteImmediately.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				60377B91219B2F990075BA1A /* Animate.swift */,
+				60377B97219B3A620075BA1A /* AnimateCompleteImmediately.swift */,
 				60377B48219B18EA0075BA1A /* Create.swift */,
 				60377B4C219B191E0075BA1A /* Delay.swift */,
 				60377B4A219B19020075BA1A /* Do.swift */,
@@ -349,6 +352,7 @@
 				60377B38219B17E60075BA1A /* EffectibleType.swift in Sources */,
 				60377B92219B2F990075BA1A /* Animate.swift in Sources */,
 				60377B36219B17B10075BA1A /* EffectorType.swift in Sources */,
+				60377B98219B3A620075BA1A /* AnimateCompleteImmediately.swift in Sources */,
 				60377B40219B18890075BA1A /* EffectorBase.swift in Sources */,
 				60377B94219B2FA70075BA1A /* AnimationType.swift in Sources */,
 				60377B4D219B191E0075BA1A /* Delay.swift in Sources */,

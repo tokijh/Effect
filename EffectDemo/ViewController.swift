@@ -24,6 +24,15 @@ class ViewController: UIViewController {
                 print("End FadeAnimation(duration: 4)",
                       Date().timeIntervalSince1970)
             })
+            .do({ (view) in
+                print("Start FadeAnimation(duration: 4), completeImmediately: true",
+                      Date().timeIntervalSince1970)
+            })
+            .animate(FadeAnimation(duration: 4), completeImmediately: true)
+            .do({ (view) in
+                print("End FadeAnimation(duration: 4), completeImmediately: true",
+                      Date().timeIntervalSince1970)
+            })
             .delay(2)
             .effect { (view) in
                 print("End delay 2 seconds",
