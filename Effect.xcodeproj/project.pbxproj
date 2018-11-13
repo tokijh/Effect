@@ -16,7 +16,6 @@
 		60377B40219B18890075BA1A /* EffectorBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60377B3F219B18890075BA1A /* EffectorBase.swift */; };
 		60377B42219B18980075BA1A /* AnonymousEffector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60377B41219B18980075BA1A /* AnonymousEffector.swift */; };
 		60377B44219B18A70075BA1A /* Sink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60377B43219B18A70075BA1A /* Sink.swift */; };
-		60377B46219B18B80075BA1A /* AnonymousEffectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60377B45219B18B80075BA1A /* AnonymousEffectable.swift */; };
 		60377B49219B18EA0075BA1A /* Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60377B48219B18EA0075BA1A /* Create.swift */; };
 		60377B4B219B19020075BA1A /* Do.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60377B4A219B19020075BA1A /* Do.swift */; };
 		60377B4D219B191E0075BA1A /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60377B4C219B191E0075BA1A /* Delay.swift */; };
@@ -78,7 +77,6 @@
 		60377B3F219B18890075BA1A /* EffectorBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectorBase.swift; sourceTree = "<group>"; };
 		60377B41219B18980075BA1A /* AnonymousEffector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnonymousEffector.swift; sourceTree = "<group>"; };
 		60377B43219B18A70075BA1A /* Sink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sink.swift; sourceTree = "<group>"; };
-		60377B45219B18B80075BA1A /* AnonymousEffectable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnonymousEffectable.swift; sourceTree = "<group>"; };
 		60377B48219B18EA0075BA1A /* Create.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Create.swift; sourceTree = "<group>"; };
 		60377B4A219B19020075BA1A /* Do.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Do.swift; sourceTree = "<group>"; };
 		60377B4C219B191E0075BA1A /* Delay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delay.swift; sourceTree = "<group>"; };
@@ -150,7 +148,6 @@
 			children = (
 				60377B2D219B17A60075BA1A /* Effect.h */,
 				60377B93219B2FA70075BA1A /* AnimationType.swift */,
-				60377B45219B18B80075BA1A /* AnonymousEffectable.swift */,
 				60377B41219B18980075BA1A /* AnonymousEffector.swift */,
 				60377B3D219B18790075BA1A /* AnyEffector.swift */,
 				60377B3B219B18680075BA1A /* Effectible.swift */,
@@ -352,7 +349,6 @@
 				60377B38219B17E60075BA1A /* EffectibleType.swift in Sources */,
 				60377B92219B2F990075BA1A /* Animate.swift in Sources */,
 				60377B36219B17B10075BA1A /* EffectorType.swift in Sources */,
-				60377B46219B18B80075BA1A /* AnonymousEffectable.swift in Sources */,
 				60377B40219B18890075BA1A /* EffectorBase.swift in Sources */,
 				60377B94219B2FA70075BA1A /* AnimationType.swift in Sources */,
 				60377B4D219B191E0075BA1A /* Delay.swift in Sources */,

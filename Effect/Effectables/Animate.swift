@@ -12,7 +12,7 @@ extension EffectibleType {
     }
 }
 
-class AnimateSink<E: EffectorType>: Sink<E>, EffectorType {
+final fileprivate class AnimateSink<E: EffectorType>: Sink<E>, EffectorType {
     
     private let _animation: AnimationType
     
@@ -27,9 +27,13 @@ class AnimateSink<E: EffectorType>: Sink<E>, EffectorType {
         }
         _animation.effect(view)
     }
+    
+    func run(source: Effectible) {
+        source.effect(self)
+    }
 }
 
-class Animate: Effectible {
+final fileprivate class Animate: Effectible {
     
     private let _source: Effectible
     private let _animation: AnimationType
@@ -41,6 +45,6 @@ class Animate: Effectible {
     
     override func effect<E: EffectorType>(_ effector: E) {
         let sink = AnimateSink(effector: effector, animation: _animation)
-        _source.effect(sink)
+        sink.run(source: _source)
     }
 }

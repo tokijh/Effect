@@ -14,7 +14,7 @@ extension EffectibleType {
     }
 }
 
-class DoSink<E: EffectorType>: Sink<E>, EffectorType{
+final fileprivate class DoSink<E: EffectorType>: Sink<E>, EffectorType{
     
     typealias EffectHandler = (UIView) -> ()
     
@@ -29,9 +29,14 @@ class DoSink<E: EffectorType>: Sink<E>, EffectorType{
         _effectHandler(view)
         forwardOn(view)
     }
+    
+    func run(source: Effectible) {
+        source.effect(self)
+    }
 }
 
-class Do: Effectible {
+final fileprivate class Do: Effectible {
+    
     typealias EffectHandler = (UIView) -> ()
     
     fileprivate let _source: Effectible
@@ -49,7 +54,7 @@ class Do: Effectible {
     override func effect<E: EffectorType>(_ effector: E) {
         let sink = DoSink(effectHandler: _effectHandler, effector: effector)
         _onEffect?()
-        _source.effect(sink)
+        sink.run(source: _source)
         _onEffected?()
     }
 }

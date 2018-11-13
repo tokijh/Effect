@@ -6,7 +6,7 @@
 //  Copyright © 2018 tokijh. All rights reserved.
 //
 
-public class AnyEffector: EffectorType {
+public struct AnyEffector: EffectorType {
     
     public typealias CompleteHandler = (UIView) -> Void
     private let effector: CompleteHandler

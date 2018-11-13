@@ -12,7 +12,7 @@ extension EffectibleType {
     }
 }
 
-class DelaySink<E: EffectorType>: Sink<E>, EffectorType {
+final fileprivate class DelaySink<E: EffectorType>: Sink<E>, EffectorType {
     
     private let _dueTime: TimeInterval
     private let _dispatchQueue: DispatchQueue
@@ -28,9 +28,14 @@ class DelaySink<E: EffectorType>: Sink<E>, EffectorType {
             self.forwardOn(view)
         }
     }
+    
+    func run(source: Effectible) {
+        source.effect(self)
+    }
 }
 
-class Delay: Effectible {
+final fileprivate class Delay: Effectible {
+    
     private let _source: Effectible
     private let _dueTime: TimeInterval
     private let _dispatchQueue: DispatchQueue
@@ -43,7 +48,7 @@ class Delay: Effectible {
     
     override func effect<E: EffectorType>(_ effector: E) {
         let sink = DelaySink(effector: effector, dueTime: _dueTime, dispatchQueue: _dispatchQueue)
-        _source.effect(sink)
+        sink.run(source: _source)
     }
 }
 

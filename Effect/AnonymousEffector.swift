@@ -6,7 +6,7 @@
 //  Copyright © 2018 tokijh. All rights reserved.
 //
 
-class AnonymousEffector: EffectorBase {
+final class AnonymousEffector: EffectorBase {
     typealias EffectHandler = (UIView) -> Void
     
     private let _effectHandler : EffectHandler
