@@ -23,7 +23,6 @@
 		60377B6A219B1C170075BA1A /* Effect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60377B2A219B17A60075BA1A /* Effect.framework */; };
 		60377B71219B1C230075BA1A /* EffectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60377B70219B1C230075BA1A /* EffectorTests.swift */; };
 		60377B73219B1DF20075BA1A /* Effectible+DoOnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60377B72219B1DF20075BA1A /* Effectible+DoOnTests.swift */; };
-		60377B75219B20FB0075BA1A /* Effectible+DelayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60377B74219B20FB0075BA1A /* Effectible+DelayTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +55,6 @@
 		60377B69219B1C170075BA1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60377B70219B1C230075BA1A /* EffectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectorTests.swift; sourceTree = "<group>"; };
 		60377B72219B1DF20075BA1A /* Effectible+DoOnTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Effectible+DoOnTests.swift"; sourceTree = "<group>"; };
-		60377B74219B20FB0075BA1A /* Effectible+DelayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Effectible+DelayTests.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,7 +126,6 @@
 		60377B66219B1C170075BA1A /* EffectTests */ = {
 			isa = PBXGroup;
 			children = (
-				60377B74219B20FB0075BA1A /* Effectible+DelayTests.swift */,
 				60377B72219B1DF20075BA1A /* Effectible+DoOnTests.swift */,
 				60377B70219B1C230075BA1A /* EffectorTests.swift */,
 				60377B69219B1C170075BA1A /* Info.plist */,
@@ -265,7 +262,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				60377B71219B1C230075BA1A /* EffectorTests.swift in Sources */,
-				60377B75219B20FB0075BA1A /* Effectible+DelayTests.swift in Sources */,
 				60377B73219B1DF20075BA1A /* Effectible+DoOnTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
