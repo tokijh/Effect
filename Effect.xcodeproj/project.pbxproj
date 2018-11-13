@@ -23,6 +23,16 @@
 		60377B6A219B1C170075BA1A /* Effect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60377B2A219B17A60075BA1A /* Effect.framework */; };
 		60377B71219B1C230075BA1A /* EffectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60377B70219B1C230075BA1A /* EffectorTests.swift */; };
 		60377B73219B1DF20075BA1A /* Effectible+DoOnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60377B72219B1DF20075BA1A /* Effectible+DoOnTests.swift */; };
+		60377B7D219B2C180075BA1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60377B7C219B2C180075BA1A /* AppDelegate.swift */; };
+		60377B7F219B2C180075BA1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60377B7E219B2C180075BA1A /* ViewController.swift */; };
+		60377B82219B2C180075BA1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60377B80219B2C180075BA1A /* Main.storyboard */; };
+		60377B84219B2C1A0075BA1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60377B83219B2C1A0075BA1A /* Assets.xcassets */; };
+		60377B87219B2C1A0075BA1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60377B85219B2C1A0075BA1A /* LaunchScreen.storyboard */; };
+		60377B8C219B2C6B0075BA1A /* Effect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60377B2A219B17A60075BA1A /* Effect.framework */; };
+		60377B8D219B2C6B0075BA1A /* Effect.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 60377B2A219B17A60075BA1A /* Effect.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		60377B92219B2F990075BA1A /* Animate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60377B91219B2F990075BA1A /* Animate.swift */; };
+		60377B94219B2FA70075BA1A /* AnimationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60377B93219B2FA70075BA1A /* AnimationType.swift */; };
+		60377B96219B2FDD0075BA1A /* Effectiable+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60377B95219B2FDD0075BA1A /* Effectiable+UIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +43,28 @@
 			remoteGlobalIDString = 60377B29219B17A60075BA1A;
 			remoteInfo = Effect;
 		};
+		60377B8E219B2C6B0075BA1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60377B21219B17A60075BA1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60377B29219B17A60075BA1A;
+			remoteInfo = Effect;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		60377B90219B2C6B0075BA1A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				60377B8D219B2C6B0075BA1A /* Effect.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		60377B2A219B17A60075BA1A /* Effect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Effect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,6 +86,16 @@
 		60377B69219B1C170075BA1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60377B70219B1C230075BA1A /* EffectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectorTests.swift; sourceTree = "<group>"; };
 		60377B72219B1DF20075BA1A /* Effectible+DoOnTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Effectible+DoOnTests.swift"; sourceTree = "<group>"; };
+		60377B7A219B2C180075BA1A /* EffectDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EffectDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60377B7C219B2C180075BA1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		60377B7E219B2C180075BA1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		60377B81219B2C180075BA1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		60377B83219B2C1A0075BA1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60377B86219B2C1A0075BA1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		60377B88219B2C1A0075BA1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60377B91219B2F990075BA1A /* Animate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animate.swift; sourceTree = "<group>"; };
+		60377B93219B2FA70075BA1A /* AnimationType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationType.swift; sourceTree = "<group>"; };
+		60377B95219B2FDD0075BA1A /* Effectiable+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Effectiable+UIView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +114,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		60377B77219B2C180075BA1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60377B8C219B2C6B0075BA1A /* Effect.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -81,6 +130,7 @@
 			children = (
 				60377B2C219B17A60075BA1A /* Effect */,
 				60377B66219B1C170075BA1A /* EffectTests */,
+				60377B7B219B2C180075BA1A /* EffectDemo */,
 				60377B2B219B17A60075BA1A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +140,7 @@
 			children = (
 				60377B2A219B17A60075BA1A /* Effect.framework */,
 				60377B65219B1C170075BA1A /* EffectTests.xctest */,
+				60377B7A219B2C180075BA1A /* EffectDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -98,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				60377B2D219B17A60075BA1A /* Effect.h */,
+				60377B93219B2FA70075BA1A /* AnimationType.swift */,
 				60377B45219B18B80075BA1A /* AnonymousEffectable.swift */,
 				60377B41219B18980075BA1A /* AnonymousEffector.swift */,
 				60377B3D219B18790075BA1A /* AnyEffector.swift */,
@@ -108,6 +160,7 @@
 				60377B35219B17B10075BA1A /* EffectorType.swift */,
 				60377B43219B18A70075BA1A /* Sink.swift */,
 				60377B47219B18DC0075BA1A /* Effectables */,
+				60377B95219B2FDD0075BA1A /* Effectiable+UIView.swift */,
 				60377B2E219B17A60075BA1A /* Info.plist */,
 			);
 			path = Effect;
@@ -116,6 +169,7 @@
 		60377B47219B18DC0075BA1A /* Effectables */ = {
 			isa = PBXGroup;
 			children = (
+				60377B91219B2F990075BA1A /* Animate.swift */,
 				60377B48219B18EA0075BA1A /* Create.swift */,
 				60377B4C219B191E0075BA1A /* Delay.swift */,
 				60377B4A219B19020075BA1A /* Do.swift */,
@@ -131,6 +185,19 @@
 				60377B69219B1C170075BA1A /* Info.plist */,
 			);
 			path = EffectTests;
+			sourceTree = "<group>";
+		};
+		60377B7B219B2C180075BA1A /* EffectDemo */ = {
+			isa = PBXGroup;
+			children = (
+				60377B7C219B2C180075BA1A /* AppDelegate.swift */,
+				60377B7E219B2C180075BA1A /* ViewController.swift */,
+				60377B80219B2C180075BA1A /* Main.storyboard */,
+				60377B83219B2C1A0075BA1A /* Assets.xcassets */,
+				60377B85219B2C1A0075BA1A /* LaunchScreen.storyboard */,
+				60377B88219B2C1A0075BA1A /* Info.plist */,
+			);
+			path = EffectDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,6 +250,25 @@
 			productReference = 60377B65219B1C170075BA1A /* EffectTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		60377B79219B2C180075BA1A /* EffectDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60377B89219B2C1A0075BA1A /* Build configuration list for PBXNativeTarget "EffectDemo" */;
+			buildPhases = (
+				60377B76219B2C180075BA1A /* Sources */,
+				60377B77219B2C180075BA1A /* Frameworks */,
+				60377B78219B2C180075BA1A /* Resources */,
+				60377B90219B2C6B0075BA1A /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60377B8F219B2C6B0075BA1A /* PBXTargetDependency */,
+			);
+			name = EffectDemo;
+			productName = EffectDemo;
+			productReference = 60377B7A219B2C180075BA1A /* EffectDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -200,6 +286,9 @@
 					60377B64219B1C170075BA1A = {
 						CreatedOnToolsVersion = 10.1;
 					};
+					60377B79219B2C180075BA1A = {
+						CreatedOnToolsVersion = 10.1;
+					};
 				};
 			};
 			buildConfigurationList = 60377B24219B17A60075BA1A /* Build configuration list for PBXProject "Effect" */;
@@ -208,6 +297,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 60377B20219B17A60075BA1A;
 			productRefGroup = 60377B2B219B17A60075BA1A /* Products */;
@@ -216,6 +306,7 @@
 			targets = (
 				60377B29219B17A60075BA1A /* Effect */,
 				60377B64219B1C170075BA1A /* EffectTests */,
+				60377B79219B2C180075BA1A /* EffectDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -235,6 +326,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		60377B78219B2C180075BA1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60377B87219B2C1A0075BA1A /* LaunchScreen.storyboard in Resources */,
+				60377B84219B2C1A0075BA1A /* Assets.xcassets in Resources */,
+				60377B82219B2C180075BA1A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -245,12 +346,15 @@
 				60377B3C219B18680075BA1A /* Effectible.swift in Sources */,
 				60377B3E219B18790075BA1A /* AnyEffector.swift in Sources */,
 				60377B44219B18A70075BA1A /* Sink.swift in Sources */,
+				60377B96219B2FDD0075BA1A /* Effectiable+UIView.swift in Sources */,
 				60377B4B219B19020075BA1A /* Do.swift in Sources */,
 				60377B42219B18980075BA1A /* AnonymousEffector.swift in Sources */,
 				60377B38219B17E60075BA1A /* EffectibleType.swift in Sources */,
+				60377B92219B2F990075BA1A /* Animate.swift in Sources */,
 				60377B36219B17B10075BA1A /* EffectorType.swift in Sources */,
 				60377B46219B18B80075BA1A /* AnonymousEffectable.swift in Sources */,
 				60377B40219B18890075BA1A /* EffectorBase.swift in Sources */,
+				60377B94219B2FA70075BA1A /* AnimationType.swift in Sources */,
 				60377B4D219B191E0075BA1A /* Delay.swift in Sources */,
 				60377B3A219B17F60075BA1A /* EffectibleConvertibleType.swift in Sources */,
 				60377B49219B18EA0075BA1A /* Create.swift in Sources */,
@@ -266,6 +370,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		60377B76219B2C180075BA1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60377B7F219B2C180075BA1A /* ViewController.swift in Sources */,
+				60377B7D219B2C180075BA1A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -274,7 +387,31 @@
 			target = 60377B29219B17A60075BA1A /* Effect */;
 			targetProxy = 60377B6B219B1C170075BA1A /* PBXContainerItemProxy */;
 		};
+		60377B8F219B2C6B0075BA1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60377B29219B17A60075BA1A /* Effect */;
+			targetProxy = 60377B8E219B2C6B0075BA1A /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		60377B80219B2C180075BA1A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60377B81219B2C180075BA1A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		60377B85219B2C1A0075BA1A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60377B86219B2C1A0075BA1A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		60377B30219B17A60075BA1A /* Debug */ = {
@@ -490,6 +627,44 @@
 			};
 			name = Release;
 		};
+		60377B8A219B2C1A0075BA1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46KGHHF73Q;
+				INFOPLIST_FILE = EffectDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tokijh.EffectDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		60377B8B219B2C1A0075BA1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46KGHHF73Q;
+				INFOPLIST_FILE = EffectDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tokijh.EffectDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -516,6 +691,15 @@
 			buildConfigurations = (
 				60377B6E219B1C170075BA1A /* Debug */,
 				60377B6F219B1C170075BA1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60377B89219B2C1A0075BA1A /* Build configuration list for PBXNativeTarget "EffectDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60377B8A219B2C1A0075BA1A /* Debug */,
+				60377B8B219B2C1A0075BA1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
