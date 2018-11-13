@@ -6,7 +6,7 @@
 //  Copyright © 2018 tokijh. All rights reserved.
 //
 
-class AnonymousEffectibleSinc<E: EffectorType>: Sink<E>, EffectorType {
+class AnonymousEffectibleSink<E: EffectorType>: Sink<E>, EffectorType {
     typealias Parent = AnonymousEffectible
     
     func on(_ view: UIView) {
@@ -28,7 +28,7 @@ class AnonymousEffectible: Effectible {
     }
     
     override func effect<E: EffectorType>(_ effector: E) {
-        let sink = AnonymousEffectibleSinc(effector: effector)
+        let sink = AnonymousEffectibleSink(effector: effector)
         sink.run(self)
     }
 }
