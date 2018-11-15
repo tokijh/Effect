@@ -15,28 +15,17 @@ class ViewController: UIViewController {
     
     @IBAction func onClicked(_ view: UIButton) {
         view.effect
-            .do({ (view) in
-                print("Start FadeAnimation(duration: 4)",
-                      Date().timeIntervalSince1970)
-            })
-            .animate(FadeAnimation(duration: 4))
-            .do({ (view) in
-                print("End FadeAnimation(duration: 4)",
-                      Date().timeIntervalSince1970)
-            })
-            .do({ (view) in
-                print("Start FadeAnimation(duration: 4), completeImmediately: true",
-                      Date().timeIntervalSince1970)
-            })
-            .animate(FadeAnimation(duration: 4), completeImmediately: true)
-            .do({ (view) in
-                print("End FadeAnimation(duration: 4), completeImmediately: true",
-                      Date().timeIntervalSince1970)
-            })
-            .delay(2)
+//            .animate(ShakeAnimation(direction: .horizontal))
+//            .animate(ShakeAnimation(direction: .vertical))
+//            .animate(PopAnimation())
+//            .animate(MorphAnimation())
+//            .animate(SqueezeAnimation())
+//            .animate(WobbleAnimation())
+//            .animate(SwingAnimation())
+//            .animate(FlipAnimation(direction: .horizontal))
+//            .animate(FlipAnimation(direction: .vertical))
             .effect { (view) in
-                print("End delay 2 seconds",
-                      Date().timeIntervalSince1970)
+                print("End Animations")
             }
     }
 }

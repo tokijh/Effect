@@ -33,6 +33,15 @@
 		60377B94219B2FA70075BA1A /* AnimationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60377B93219B2FA70075BA1A /* AnimationType.swift */; };
 		60377B96219B2FDD0075BA1A /* Effectiable+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60377B95219B2FDD0075BA1A /* Effectiable+UIView.swift */; };
 		60377B98219B3A620075BA1A /* AnimateCompleteImmediately.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60377B97219B3A620075BA1A /* AnimateCompleteImmediately.swift */; };
+		605AE776219D8449007D9F6E /* ShakeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605AE775219D8449007D9F6E /* ShakeAnimation.swift */; };
+		605AE778219D845A007D9F6E /* EffectAnimationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605AE777219D845A007D9F6E /* EffectAnimationType.swift */; };
+		605AE77A219D89E6007D9F6E /* AnimationCurve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605AE779219D89E6007D9F6E /* AnimationCurve.swift */; };
+		605AE77C219D8A06007D9F6E /* PopAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605AE77B219D8A06007D9F6E /* PopAnimation.swift */; };
+		605AE77E219D9100007D9F6E /* MorphAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605AE77D219D9100007D9F6E /* MorphAnimation.swift */; };
+		605AE780219D931E007D9F6E /* SqueezeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605AE77F219D931E007D9F6E /* SqueezeAnimation.swift */; };
+		605AE782219D93D8007D9F6E /* WobbleAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605AE781219D93D8007D9F6E /* WobbleAnimation.swift */; };
+		605AE784219D9491007D9F6E /* SwingAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605AE783219D9491007D9F6E /* SwingAnimation.swift */; };
+		605AE786219D9519007D9F6E /* FlipAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605AE785219D9519007D9F6E /* FlipAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,6 +105,15 @@
 		60377B93219B2FA70075BA1A /* AnimationType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationType.swift; sourceTree = "<group>"; };
 		60377B95219B2FDD0075BA1A /* Effectiable+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Effectiable+UIView.swift"; sourceTree = "<group>"; };
 		60377B97219B3A620075BA1A /* AnimateCompleteImmediately.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateCompleteImmediately.swift; sourceTree = "<group>"; };
+		605AE775219D8449007D9F6E /* ShakeAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeAnimation.swift; sourceTree = "<group>"; };
+		605AE777219D845A007D9F6E /* EffectAnimationType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectAnimationType.swift; sourceTree = "<group>"; };
+		605AE779219D89E6007D9F6E /* AnimationCurve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationCurve.swift; sourceTree = "<group>"; };
+		605AE77B219D8A06007D9F6E /* PopAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopAnimation.swift; sourceTree = "<group>"; };
+		605AE77D219D9100007D9F6E /* MorphAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorphAnimation.swift; sourceTree = "<group>"; };
+		605AE77F219D931E007D9F6E /* SqueezeAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SqueezeAnimation.swift; sourceTree = "<group>"; };
+		605AE781219D93D8007D9F6E /* WobbleAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WobbleAnimation.swift; sourceTree = "<group>"; };
+		605AE783219D9491007D9F6E /* SwingAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwingAnimation.swift; sourceTree = "<group>"; };
+		605AE785219D9519007D9F6E /* FlipAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +177,7 @@
 				60377B35219B17B10075BA1A /* EffectorType.swift */,
 				60377B43219B18A70075BA1A /* Sink.swift */,
 				60377B47219B18DC0075BA1A /* Effectables */,
+				605AE774219D8432007D9F6E /* Animations */,
 				60377B95219B2FDD0075BA1A /* Effectiable+UIView.swift */,
 				60377B2E219B17A60075BA1A /* Info.plist */,
 			);
@@ -198,6 +217,22 @@
 				60377B88219B2C1A0075BA1A /* Info.plist */,
 			);
 			path = EffectDemo;
+			sourceTree = "<group>";
+		};
+		605AE774219D8432007D9F6E /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				605AE777219D845A007D9F6E /* EffectAnimationType.swift */,
+				605AE779219D89E6007D9F6E /* AnimationCurve.swift */,
+				605AE775219D8449007D9F6E /* ShakeAnimation.swift */,
+				605AE77B219D8A06007D9F6E /* PopAnimation.swift */,
+				605AE77D219D9100007D9F6E /* MorphAnimation.swift */,
+				605AE77F219D931E007D9F6E /* SqueezeAnimation.swift */,
+				605AE781219D93D8007D9F6E /* WobbleAnimation.swift */,
+				605AE783219D9491007D9F6E /* SwingAnimation.swift */,
+				605AE785219D9519007D9F6E /* FlipAnimation.swift */,
+			);
+			path = Animations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -344,16 +379,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				60377B3C219B18680075BA1A /* Effectible.swift in Sources */,
+				605AE77E219D9100007D9F6E /* MorphAnimation.swift in Sources */,
 				60377B3E219B18790075BA1A /* AnyEffector.swift in Sources */,
+				605AE77C219D8A06007D9F6E /* PopAnimation.swift in Sources */,
 				60377B44219B18A70075BA1A /* Sink.swift in Sources */,
 				60377B96219B2FDD0075BA1A /* Effectiable+UIView.swift in Sources */,
+				605AE782219D93D8007D9F6E /* WobbleAnimation.swift in Sources */,
 				60377B4B219B19020075BA1A /* Do.swift in Sources */,
 				60377B42219B18980075BA1A /* AnonymousEffector.swift in Sources */,
+				605AE786219D9519007D9F6E /* FlipAnimation.swift in Sources */,
 				60377B38219B17E60075BA1A /* EffectibleType.swift in Sources */,
 				60377B92219B2F990075BA1A /* Animate.swift in Sources */,
+				605AE780219D931E007D9F6E /* SqueezeAnimation.swift in Sources */,
+				605AE778219D845A007D9F6E /* EffectAnimationType.swift in Sources */,
 				60377B36219B17B10075BA1A /* EffectorType.swift in Sources */,
 				60377B98219B3A620075BA1A /* AnimateCompleteImmediately.swift in Sources */,
+				605AE784219D9491007D9F6E /* SwingAnimation.swift in Sources */,
 				60377B40219B18890075BA1A /* EffectorBase.swift in Sources */,
+				605AE77A219D89E6007D9F6E /* AnimationCurve.swift in Sources */,
+				605AE776219D8449007D9F6E /* ShakeAnimation.swift in Sources */,
 				60377B94219B2FA70075BA1A /* AnimationType.swift in Sources */,
 				60377B4D219B191E0075BA1A /* Delay.swift in Sources */,
 				60377B3A219B17F60075BA1A /* EffectibleConvertibleType.swift in Sources */,
