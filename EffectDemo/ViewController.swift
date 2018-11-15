@@ -15,15 +15,20 @@ class ViewController: UIViewController {
     
     @IBAction func onClicked(_ view: UIButton) {
         view.effect
-//            .animate(ShakeAnimation(direction: .horizontal))
-//            .animate(ShakeAnimation(direction: .vertical))
-//            .animate(PopAnimation())
-//            .animate(MorphAnimation())
-//            .animate(SqueezeAnimation())
-//            .animate(WobbleAnimation())
-//            .animate(SwingAnimation())
-//            .animate(FlipAnimation(direction: .horizontal))
-//            .animate(FlipAnimation(direction: .vertical))
+            .animate(ShakeAnimation(direction: .horizontal))
+            .animate(ShakeAnimation(direction: .vertical))
+            .animate(PopAnimation())
+            .animate(MorphAnimation())
+            .animate(SqueezeAnimation())
+            .animate(WobbleAnimation())
+            .animate(SwingAnimation())
+            .animate(FlipAnimation(direction: .horizontal))
+            .animate(FlipAnimation(direction: .vertical))
+            .animate(FallAnimation())
+            .animate(SlideAnimation(direction: .left))
+            .animate(SlideAnimation(direction: .up))
+            .animate(SlideAnimation(direction: .right))
+            .animate(SlideAnimation(direction: .down))
             .effect { (view) in
                 print("End Animations")
             }

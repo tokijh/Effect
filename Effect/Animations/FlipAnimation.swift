@@ -35,6 +35,9 @@ public class FlipAnimation: EffectAnimationType {
         animation.duration = CFTimeInterval(duration)
         animation.repeatCount = Float(repeatCount)
         animation.timingFunction = animationCurve.timingFunction
+        animation.fillMode = CAMediaTimingFillMode.forwards
+        animation.isRemovedOnCompletion = false
+        animation.isAdditive = true
         animation.delegate = self
         view.layer.add(animation, forKey: direction.animationKey)
     }
