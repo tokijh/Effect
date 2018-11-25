@@ -18,6 +18,7 @@ public class PopAnimation: EffectAnimationType {
         animation.isAdditive = true
         animation.repeatCount = Float(repeatCount)
         animation.delegate = self
+        
         view.layer.add(animation, forKey: "pop")
     }
 }

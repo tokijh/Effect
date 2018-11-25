@@ -14,9 +14,10 @@ public class SwingAnimation: EffectAnimationType {
         animation.values = [0, 0.3 * strength, -0.3 * strength, 0.3 * strength, 0]
         animation.keyTimes = [0, 0.2, 0.4, 0.6, 0.8, 1]
         animation.duration = duration
-        animation.isAdditive = true
         animation.repeatCount = Float(repeatCount)
+        animation.isAdditive = true
         animation.delegate = self
+        
         view.layer.add(animation, forKey: "swing")
     }
 }

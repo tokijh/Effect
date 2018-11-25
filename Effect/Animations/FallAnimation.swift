@@ -14,21 +14,21 @@ public class FallAnimation: EffectAnimationType {
         rotate.toValue = 15 * (CGFloat.pi / 180)
         rotate.duration = duration
         rotate.isAdditive = true
-        rotate.repeatCount = Float(repeatCount)
         
         let fall = CABasicAnimation()
         fall.keyPath = "transform.translation.y"
         fall.toValue = 600 * strength
         fall.duration = duration
         fall.isAdditive = true
-        fall.repeatCount = Float(repeatCount)
         
         let animationGroup = CAAnimationGroup()
         animationGroup.animations = [rotate, fall]
         animationGroup.duration = duration
+        animationGroup.repeatCount = Float(repeatCount)
         animationGroup.fillMode = CAMediaTimingFillMode.forwards
         animationGroup.isRemovedOnCompletion = false
         animationGroup.delegate = self
+        
         view.layer.add(animationGroup, forKey: "fall")
     }
 }

@@ -39,6 +39,7 @@ public class FlipAnimation: EffectAnimationType {
         animation.isRemovedOnCompletion = false
         animation.isAdditive = true
         animation.delegate = self
+        
         view.layer.add(animation, forKey: direction.animationKey)
     }
 }

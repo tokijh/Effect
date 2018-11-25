@@ -15,7 +15,6 @@ public class MorphAnimation: EffectAnimationType {
         morphX.keyTimes = [0, 0.2, 0.4, 0.6, 0.8, 1]
         morphX.timingFunction = animationCurve.timingFunction
         morphX.duration = duration
-        morphX.repeatCount = Float(repeatCount)
         
         let morphY = CAKeyframeAnimation()
         morphY.keyPath = "transform.scale.y"
@@ -23,12 +22,13 @@ public class MorphAnimation: EffectAnimationType {
         morphY.keyTimes = [0, 0.2, 0.4, 0.6, 0.8, 1]
         morphY.timingFunction = animationCurve.timingFunction
         morphY.duration = duration
-        morphY.repeatCount = Float(repeatCount)
         
         let animationGroup = CAAnimationGroup()
         animationGroup.animations = [morphX, morphY]
         animationGroup.duration = duration
+        animationGroup.repeatCount = Float(repeatCount)
         animationGroup.delegate = self
+        
         view.layer.add(animationGroup, forKey: "morph")
     }
 }

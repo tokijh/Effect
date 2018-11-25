@@ -23,12 +23,13 @@ public class WobbleAnimation: EffectAnimationType {
         x.timingFunction = animationCurve.timingFunction
         x.duration = duration
         x.isAdditive = true
-        x.repeatCount = Float(repeatCount)
 
         let animationGroup = CAAnimationGroup()
         animationGroup.animations = [animation, x]
         animationGroup.duration = duration
+        animationGroup.repeatCount = Float(repeatCount)
         animationGroup.delegate = self
+        
         view.layer.add(animationGroup, forKey: "wobble")
     }
 }
